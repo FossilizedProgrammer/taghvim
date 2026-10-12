@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Persian Calendar</string>
+    <string name="channel_name">تاریخ امروز</string>
+    <string name="channel_description">نمایش تاریخ شمسی و میلادی امروز به‌صورت نوتیفیکیشن دائمی، حتی روی صفحهٔ قفل.</string>
+    <string name="activate">نمایش تاریخ روی صفحهٔ قفل</string>
+    <string name="stop">توقف</string>
+    <string name="battery">مستثنا کردن از بهینه‌سازی باتری</string>
+    <string name="status_active">✓ نوتیفیکیشن تاریخ فعال است</string>
+    <string name="status_inactive">نوتیفیکیشن تاریخ خاموش است</string>
+    <string name="hint">اگر تاریخ را روی صفحهٔ قفل نمی‌بینید، در تنظیمات گوشی بخش «قفل صفحه ← نوتیفیکیشن‌ها» گزینهٔ «نمایش تمام محتوا» را فعال کنید. در شیائومی، هوآوی و سامسونگ هم «اجرای خودکار (Autostart)» را برای این برنامه روشن کنید.</string>
+</resources>

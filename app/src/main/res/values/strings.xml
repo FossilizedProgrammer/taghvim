@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Persian Calendar</string>
+    <string name="channel_name">Today\'s date</string>
+    <string name="channel_description">Shows today\'s Jalali and Gregorian date as a persistent notification, including on the lock screen.</string>
+    <string name="activate">Show date on lock screen</string>
+    <string name="stop">Stop</string>
+    <string name="battery">Ignore battery optimization</string>
+    <string name="status_active">✓ Date notification is active</string>
+    <string name="status_inactive">Date notification is off</string>
+    <string name="hint">If you don\'t see the date on the lock screen, enable “Lock screen → Notifications → Show all content” in system settings. On Xiaomi / Huawei / Samsung, also turn on “Autostart” for this app.</string>
+</resources>

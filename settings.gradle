@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        // dl.google.com در بعضی شبکه‌ها (از جمله ایران) مسدود است؛
+        // به همین دلیل آینه‌ها قبل از مخازن اصلی چک می‌شوند.
+        mavenCentral()
+        maven { url 'https://repo.huaweicloud.com/repository/maven/' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        google()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://repo.huaweicloud.com/repository/maven/' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        google()
+    }
+}
+
+rootProject.name = "Taghvim"
+include ':app'
