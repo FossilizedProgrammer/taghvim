@@ -16,12 +16,14 @@ android {
     }
 
     // کلید امضا: app/taghvim.jks (برای آپدیت‌های بعدی همین کلید لازم است)
+    // در CI (گیت‌هاب) مسیر/رمزها از متغیرهای محیطی خوانده می‌شوند؛
+    // اگر تنظیم نشده باشند، مقادیر محلی زیر استفاده می‌شوند.
     signingConfigs {
         release {
-            storeFile file('taghvim.jks')
-            storePassword "taghvim1405"
-            keyAlias "taghvim"
-            keyPassword "taghvim1405"
+            storeFile file(System.getenv("TAGHVM_STORE_FILE") ?: 'taghvim.jks')
+            storePassword System.getenv("TAGHVM_STORE_PASSWORD") ?: "taghvim1405"
+            keyAlias System.getenv("TAGHVM_KEY_ALIAS") ?: "taghvim"
+            keyPassword System.getenv("TAGHVM_KEY_PASSWORD") ?: "taghvim1405"
         }
     }
 
